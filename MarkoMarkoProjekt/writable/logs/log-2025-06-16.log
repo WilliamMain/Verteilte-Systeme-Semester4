@@ -1,0 +1,245 @@
+ERROR - 2025-06-16 13:42:28 --> mysqli_sql_exception: Table 'inventory_system.mitarbeiter' doesn't exist in engine in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Mitarbe...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Mitarbe...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Mitarbe...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Auth.php(40): CodeIgniter\Database\BaseConnection->query('SELECT `Mitarbe...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Auth->loginProcess()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-16 13:42:39 --> mysqli_sql_exception: Table 'inventory_system.produkte' doesn't exist in engine in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT Name FRO...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Name FRO...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Name FRO...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Cart.php(55): CodeIgniter\Database\BaseConnection->query('SELECT Name FRO...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Cart->checkout()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2025-06-16 13:42:39 --> Error: Call to a member function getRow() on bool
+[Method: POST, Route: cart/checkout]
+in APPPATH\Controllers\Cart.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 13:42:47 --> mysqli_sql_exception: Table 'inventory_system.produkte' doesn't exist in engine in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT Name FRO...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Name FRO...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Name FRO...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Cart.php(55): CodeIgniter\Database\BaseConnection->query('SELECT Name FRO...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Cart->checkout()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2025-06-16 13:42:47 --> Error: Call to a member function getRow() on bool
+[Method: POST, Route: cart/checkout]
+in APPPATH\Controllers\Cart.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 15:53:11 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-16 15:53:29 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-16 16:07:57 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-16 16:09:54 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-06-16 16:11:17 --> ParseError: syntax error, unexpected token "try"
+[Method: GET, Route: mitarbeiter-dashboard]
+in APPPATH\Controllers\MitarbeiterDashboard.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\inventory\\MarkoMarkoProjekt\\app\\Controllers\\MitarbeiterDashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MitarbeiterDashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MitarbeiterDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\MitarbeiterDashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 16:11:46 --> ParseError: syntax error, unexpected token "try"
+[Method: GET, Route: mitarbeiter-dashboard]
+in APPPATH\Controllers\MitarbeiterDashboard.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\inventory\\MarkoMarkoProjekt\\app\\Controllers\\MitarbeiterDashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MitarbeiterDashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MitarbeiterDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\MitarbeiterDashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 16:11:48 --> ParseError: syntax error, unexpected token "try"
+[Method: GET, Route: mitarbeiter-dashboard]
+in APPPATH\Controllers\MitarbeiterDashboard.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\inventory\\MarkoMarkoProjekt\\app\\Controllers\\MitarbeiterDashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MitarbeiterDashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MitarbeiterDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\MitarbeiterDashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 16:12:02 --> ParseError: syntax error, unexpected token "try"
+[Method: GET, Route: mitarbeiter-dashboard]
+in APPPATH\Controllers\MitarbeiterDashboard.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\inventory\\MarkoMarkoProjekt\\app\\Controllers\\MitarbeiterDashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MitarbeiterDashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MitarbeiterDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\MitarbeiterDashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 16:12:43 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-16 16:17:44 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-16 16:21:41 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-16 16:26:48 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-16 16:31:50 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-16 17:43:44 --> mysqli_sql_exception: Table 'inventory_system.einkaufe' doesn't exist in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(269): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(32): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}

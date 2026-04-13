@@ -1,0 +1,65 @@
+ERROR - 2025-06-06 20:23:31 --> mysqli_sql_exception: Table 'inventory_system.mitarbeiter' doesn't exist in engine in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Mitarbe...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Mitarbe...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Mitarbe...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Auth.php(40): CodeIgniter\Database\BaseConnection->query('SELECT `Mitarbe...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Auth->loginProcess()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-06 20:23:47 --> mysqli_sql_exception: Table 'inventory_system.mitarbeiter' doesn't exist in engine in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Mitarbe...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Mitarbe...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Mitarbe...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Auth.php(40): CodeIgniter\Database\BaseConnection->query('SELECT `Mitarbe...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Auth->loginProcess()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-06 20:24:20 --> mysqli_sql_exception: Table 'inventory_system.mitarbeiter' doesn't exist in engine in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Mitarbe...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Mitarbe...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Mitarbe...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Auth.php(40): CodeIgniter\Database\BaseConnection->query('SELECT `Mitarbe...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Auth->loginProcess()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-06 20:43:57 --> mysqli_sql_exception: Table 'inventory_system.mitarbeiter' doesn't exist in engine in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Mitarbe...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Mitarbe...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Mitarbe...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Auth.php(40): CodeIgniter\Database\BaseConnection->query('SELECT `Mitarbe...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Auth->loginProcess()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-06 20:49:39 --> mysqli_sql_exception: Table 'inventory_system.mitarbeiter' doesn't exist in engine in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `Mitarbe...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Mitarbe...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Mitarbe...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Auth.php(40): CodeIgniter\Database\BaseConnection->query('SELECT `Mitarbe...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Auth->loginProcess()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}

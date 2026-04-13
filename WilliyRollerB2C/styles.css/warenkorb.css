@@ -1,0 +1,109 @@
+.checkout-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+    max-width: 700px;
+    min-height: 550px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checkout-total {
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-options select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Warenkorb */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 10px;
+    font-family: 'Space Mono', monospace;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item p {
+    margin: 0;
+    flex: 1;
+    padding: 0 10px;
+}
+
+.cart-item strong {
+    font-weight: bold;
+}
+
+.cart-item button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+    background-color: darkorange;
+}
+
+.checkout-total h3 {
+    font-family: 'Space Mono', monospace;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.payment-options label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Space Mono', monospace;
+}
+
+.payment-options select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.confirm-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirm-btn:hover {
+    background-color: darkorange;
+}
+
+

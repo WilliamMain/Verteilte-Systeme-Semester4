@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RW - Kontakt</title>
+        <link rel="stylesheet" href="../styles.css/algemein.css">
+        <link rel="stylesheet" href="../styles.css/contact.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <!-- Suchleiste -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/LogoIcon.png" alt="Logo">
+            <a href="index.html" class="site-title">Rolling-Willy</a> 
+        </div>
+        <div class="search-container">
+            <form id="search-form">
+                <input type="text" id="search" placeholder="Suchen..." name="query">
+                <button type="submit">Suchen</button>
+            </form>
+            <ul id="suggestions" style="display: none;"></ul>
+        </div>
+        <div class="links-container">
+            <a href="index.html">Home</a>
+            <a href="about.html">Über Uns</a>
+            <a href="services.html">Produkte</a>
+            <a href="warenkorb.html">Warenkorb</a>
+        </div>
+    </div>
+    <div class="contact-header">
+        <h1 style="color: white;">Kontakt</h1>
+    </div>
+
+    <!-- Kontaktformular -->
+    <main class="contact-main">
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2>Kontaktieren Sie uns</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nachricht:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn" onclick="kontaktieren()">Senden</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Über Uns</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="impressum.html">Impressum</a>
+            <a href="wetter.html">Wetter</a>
+            <a href="../../MarkoMarkoProjekt/public/">B2B-Laden</a>
+        </div>
+        <p>© Rolling-Willy. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script src="../script/contact.js"></script>
+    <script src="../script/index.js"></script>
+</body>
+</html>

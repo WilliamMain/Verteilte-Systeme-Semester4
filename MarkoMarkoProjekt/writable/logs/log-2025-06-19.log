@@ -1,0 +1,53 @@
+ERROR - 2025-06-19 12:14:10 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(348): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\MitarbeiterDashboard.php(148): App\Controllers\MitarbeiterDashboard->getEmployeePurchases('1')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\MitarbeiterDashboard->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MitarbeiterDashboard))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-06-19 12:17:33 --> mysqli_sql_exception: Unknown column 'Transaktions-Nr' in 'field list' in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `vk...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vk...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vk...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Cart.php(116): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vk...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Cart->checkout()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-19 12:17:38 --> mysqli_sql_exception: Unknown column 'Transaktions-Nr' in 'field list' in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `vk...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vk...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vk...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Cart.php(116): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vk...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Cart->checkout()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-19 12:37:27 --> mysqli_sql_exception: Unknown column 'Transaktions-Nr' in 'field list' in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `vk...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vk...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vk...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Cart.php(149): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vk...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Cart->checkout()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}

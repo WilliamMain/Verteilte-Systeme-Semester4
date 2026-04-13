@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RW - Home</title>
+    <link rel="stylesheet" href="../styles.css/algemein.css">
+    <link rel="stylesheet" href="../styles.css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Suchleiste -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/LogoIcon.png" alt="Logo">
+            <a href="index.html" class="site-title">Rolling-Willy</a> 
+        </div>
+        <div class="search-container">
+            <form id="search-form">
+                <input type="text" id="search" placeholder="Suchen..." name="query">
+                <button type="submit">Suchen</button>
+            </form>
+            <ul id="suggestions" style="display: none;"></ul>
+        </div>
+        <div class="links-container">
+        <a href="index.html">Home</a>
+            <a href="about.html">Über Uns</a>
+            <a href="services.html">Produkte</a>
+            <a href="warenkorb.html">Warenkorb</a>
+        </div>
+    </div>
+
+    <!--cookies-->
+    <div id="cookieConsentBanner" class="cookie-banner">
+        <p>Wir möchten ihnen cookies anbieten damit sie nicht verhungern. 
+            Zusätzlich verkaufen wir ihre Daten an Drittanbiter.</p>
+        <button id="acceptCookies">Annehmen</button>
+        <button id="rejectCookies">Ablehnen</button>
+    </div>
+
+    <!-- Hauptbild -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <img src="../images/scooterSunset.webp" alt="New York City" class="hero-image">
+            <div class="hero-text">
+                <h1>Wir bewegen die Zukunft</h1>
+                <p>Entdecken Sie unsere hochmodernen E-Scooter und fahre Sie durch die gegend.</p>
+                <a href="services.html" class="btn-primary">Zum Shop</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produkte -->
+    <h2 id="carousel-titel">Unsere Produkte</h2>
+    <div class="carousel-container">
+        <button class="carousel-control prev" id="prevBtn">‹</button>
+        <div class="carousel-wrapper">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="../images/E-roller daempfer.avif" alt="E-roller daempfer">
+                    <div class="price-tag">549.79 €</div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/E-roller disco.jpg" alt="E-roller disco">
+                    <div class="price-tag">999.98 €</div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/E-roller schwarz.jpg" alt="E-roller schwarz">
+                    <div class="price-tag">349.99 €</div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/un-e-Roller.avif" alt="un-e-Roller">
+                    <div class="price-tag">29.99 €</div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/E-roller verstellbar.webp" alt="E-roller verstellbar">
+                    <div class="price-tag">419.99 €</div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/E-roller Grau.avif" alt="E-roller Grau">
+                    <div class="price-tag">249.99 €</div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control next" id="nextBtn">›</button>
+    </div>
+
+
+    <!-- Video  -->
+    <section class="video-section">
+        <div class="video-content">
+            <h1>Erlebe die Räder unter den Füßen</h1>
+            <p>Rückerstattungen sind nicht genehmigt</p>
+        </div>
+        <img src="../images/E-rollerBild.jpg" alt="">
+    </section>
+
+    <!-- Bewertungne -->
+    <section class="Bewertungen">
+        <h2 id="Bewertungen-Titel">Was unsere Kunden sagen</h2>
+        <div class="Bewertungen-grid">
+            <div class="Bewertungen-card">
+                <p>"Ich liebe diese E-Roller. Sogar die verpackung ist richtig gut und so. 10/10 würde weiterempfehlen!"</p>
+                <span>- Martin Schweißer</span>
+            </div>
+            <div class="Bewertungen-card">
+                <p>"Die Lieferzeit ist echt schnell. Ich war jedoch ein bisschen skeptisch als ich mein Kennzeichen
+                    bekommen habe, da sie ein bisschen benutzt aussah."</p>
+                <span>- Karen Schmidt</span>
+            </div>
+            <div class="Bewertungen-card">
+                <p>"Ich bin sehr zufrieden mit mein US edition E-Roller. Gute feuerrate und der rückspiegel ist der Wahnsinn!"</p>
+                <span>- Emily Schneider</span>
+            </div>
+            <div class="Bewertungen-card">
+                <p>"Hallo, mein Name ist Robert Braun! Ich mag E-Roller"</p>
+                <span>- Robert Braun</span>
+            </div>
+            <!-- Versteckte bewertungen -->
+            <div class="Bewertungen-card versteckte-Bewertungen">
+                <p>"Habe mir ein Un-E-Roller bestellt und er ging nicht, auch nachdem ich versucht habe ihn aufzuladen. 0/10 Sterne! "</p>
+                <span>- Sarah Göppert</span>
+            </div>
+            <div class="Bewertungen-card versteckte-Bewertungen">
+                <p>"Meine Bestellung ist nicht angekommen! Ich wurde abgezoden!"</p>
+                <span>- Michael Jansen</span>
+            </div>
+        </div>
+        <button class="more-btn" id="toggleBtn">Mehr</button>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="cta-section">
+        <h2 class="cta-section">Bleib auf dem Laufenden</h2>
+        <p>Melden sie sich für unsere Newsletter an.<br><br></p>
+        <form class="newsletter-form">
+            <input type="email" id="Email" placeholder="Email eingeben">
+            <button type="submit" class="btn-secondary">Abbonieren</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Über Uns</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="impressum.html">Impressum</a>
+            <a href="wetter.html">Wetter</a>
+            <a href="../../MarkoMarkoProjekt/public/">B2B-Laden</a>
+        </div>
+        <p>© Rolling-Willy. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script src="../script/index.js"></script>
+</body>
+</html>

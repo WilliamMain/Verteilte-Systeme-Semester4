@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RW - Produkte</title>
+    <link rel="stylesheet" href="../styles.css/algemein.css">
+    <link rel="stylesheet" href="../styles.css/services.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Suchleiste -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/LogoIcon.png" alt="Logo">
+            <a href="index.html" class="site-title">Rolling-Willy</a> 
+        </div>
+        <div class="search-container">
+            <form id="search-form">
+                <input type="text" id="search" placeholder="Suchen..." name="query">
+                <button type="submit">Suchen</button>
+            </form>
+            <ul id="suggestions" style="display: none;"></ul>
+        </div>
+        <div class="links-container">
+            <a href="index.html">Home</a>
+            <a href="about.html">Über Uns</a>
+            <a href="services.html">Produkte</a>
+            <a href="warenkorb.html">Warenkorb</a>
+        </div>
+    </div>
+
+    <!-- Produkte -->
+    <div class="product-container">
+         <div class="product-card" onclick="openPopup('popup-product1')">
+            <img src="../images/un-e-Roller.avif" alt="Product Image">
+            <h3>Nicht so E-Roller</h3>
+            <p>Fährt so schnell wie du kannst</p>
+            <p><strong>Preis: 29.99 €</strong></p>
+            <button>Mehr</button>
+        </div>
+
+        <div class="product-card" onclick="openPopup('popup-product2')">
+            <img src="../images/E-roller disco.jpg" alt="Product Image">
+            <h3>Disco Roller</h3>
+            <p>Der Roller macht disco Party</p>
+            <p><strong>Preis: 999.98 €</strong></p>
+            <button>Mehr</button>
+        </div>
+        
+        <div class="product-card" onclick="openPopup('popup-product3')">
+            <img src="../images/E-roller schwarz.jpg" alt="Product Image">
+            <h3>E-Roller Ultron</h3>
+            <p>Dieser E-Roller ist schwarz</p>
+            <p><strong>Preis: 349.99 €</strong></p>
+            <button>Mehr</button>
+        </div>
+        
+        <div class="product-card" onclick="openPopup('popup-product4')">
+            <img src="../images/E-roller Grau.avif" alt="Product Image">
+            <h3>E-Roller WLAN</h3>
+            <p>Dieser E-Roller hat WLAN</p>
+            <p><strong>Preis: 249.99 €</strong></p>
+            <button>Mehr</button>
+        </div>
+
+        <div class="product-card" onclick="openPopup('popup-product5')">
+            <img src="../images/E-roller weponized.jpg" alt="Product Image">
+            <h3>E-Roller US Edition</h3>
+            <p>Ein E-Roller für Kriegszwecke</p>
+            <p><strong>Preis: 100,000.01 €</strong></p>
+            <button>Mehr</button>
+        </div>
+
+        <div class="product-card" onclick="openPopup('popup-product6')">
+            <img src="../images/E-roller verstellbar.webp" alt="Product Image">
+            <h3>E-Roller X2</h3>
+            <p>Dieser E-Roller kann fliegen!</p>
+            <p><strong>Preis: 419.99 €</strong></p>
+            <button>Mehr</button>
+        </div>
+
+        <div class="product-card" onclick="openPopup('popup-product7')">
+            <img src="../images/E-roller daempfer.avif" alt="Product Image">
+            <h3>E-Roller V8</h3>
+            <p>Kaum ein E-Roller, sondern...</p>
+            <p><strong>Preis: 549.79 €</strong></p>
+            <button>Mehr</button>
+        </div>
+
+        <div class="product-card" onclick="openPopup('popup-product8')">
+            <img src="../images/Kennzeichenhalter.jpg" alt="Product Image">
+            <h3>Kennzeichenhalter</h3>
+            <p>Der hält dein Kennzeichen...</p>
+            <p><strong>Preis: 49.99 €</strong></p>
+            <button>Mehr</button>
+        </div>
+
+        <div class="product-card" onclick="openPopup('popup-product9')">
+            <img src="../images/Reifen.jpg" alt="Product Image">
+            <h3>Reifen</h3>
+            <p>REIFEN REIFEN REIFEN REIFEN</p>
+            <p><strong>Preis: 14.99 €</strong></p>
+            <button>Mehr</button>
+        </div>
+
+        <div class="product-card" onclick="openPopup('popup-product10')">
+            <img src="../images/E-roller ladekabel.avif" alt="Product Image">
+            <h3>Ladekabel</h3>
+            <p>Der Lädt, mit Strom. Nichts anderes</p>
+            <p><strong>Preis: 29.99 €</strong></p>
+            <button>Mehr</button>
+        </div>
+    </div>
+
+    <!-- Produkte Pop-up -->
+    <div id="popup-product1" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product1')">&times;</span>
+            <h2>Nicht so E-Roller</h2>
+            <img src="../images/un-e-Roller.avif" alt="Product Image">
+            <p><strong>Beschreibung:</strong><br><br>
+                Dieser E-Roller ist zwar nicht elektrisch, aber dafür hat der kein strom ;D.
+                Wenn Sie den jetzt kaufen, besitzen Sie ihn auch!
+            </p>
+            <hr>
+            <p><strong>Preis: 29.99 €</strong></p>
+            <label class="anzahl-label" for="quantity-product1">Anzahl:</label>
+            <input type="number" id="quantity-product1" class="anzahl-ware" value="1" min="1"><br>
+            <button class="add-to-cart-btn" onclick="addToCart('Nicht so E-Roller', 29.99, 'quantity-product1')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product2" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product2')">&times;</span>
+            <h2>Disco Roller</h2>
+            <img src="../images/E-roller disco.jpg" alt="Product Image">
+            <p><strong>Beschreibung:</strong><br><br>
+                Dieser Roller kommt mit eingebauten Fullrange Boxen
+                von Steinigke inklusive Subwoofer. Zusätzlich wurden zwei
+                EUROLITE LED B-40 Laser an den Lenker moniert,
+                ebenfalls von Steinigke.
+                Ein must-have für jeden Rave!
+            </p>
+            <hr>
+            <p><strong>Preis: $999.98</strong></p>
+            <label class="anzahl-label" for="quantity-product2">Anzahl:</label>
+            <input type="number" id="quantity-product2" class="anzahl-ware" value="1" min="1"><br>
+            <button class="add-to-cart-btn" onclick="addToCart('Disco Roller', 999.98, 'quantity-product2')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product3" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product3')">&times;</span>
+            <h2>E-Roller Schwarz</h2>
+            <img src="../images/E-roller schwarz.jpg" alt="Product Image">
+            <p><b>Beschreibung:</b><br>
+                Dieser E-Roller hat ein elektrisches Motor
+                und kann deshalb fahren. Da er schwarz  
+                lackiert ist, sieht man ihn nicht im Dunkeln. 
+                Geeignet für getaway Fahrer! 
+                <hr>
+            </p>
+            <p>Preis: 349.99 €</p>
+            <label class="anzahl-label" for="quantity-product2">Anzahl:</label>
+            <input type="number" id="quantity-product3" class="anzahl-ware" value="1" min="1"><br>
+            <button class="add-to-cart-btn" onclick="addToCart('E-Roller Schwarz', 349.99, 'quantity-product3')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product4" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product4')">&times;</span>
+            <h2>E-Roller WLAN</h2>
+            <img src="../images/E-roller Grau.avif" alt="Product Image">
+            <p><b>Beschreibung:</b><br>
+                Mit diesem E-Roller sind sie digital 
+                unterwegs mit einem eingebauten WLAN Router. 
+                Sie sitzen am Bahnhof und wollen Netflix schauen? 
+                Der E-Roller WLAN ermöglicht das! 
+                <dt> <u>Disclaimer:</u></dt>
+                <dd>Wir konnten leider nicht herausfinden,
+                    wie man ein Passwort für den Router setzt. 
+                    Somit kann sich leider jeder verbinden. <br><br>
+                </dd>
+                <hr>
+            </p>
+            <p>Preis: 249.99 €</p>
+            <label class="anzahl-label" for="quantity-product2">Anzahl:</label>
+            <input type="number" id="quantity-product4" class="anzahl-ware" value="1" min="1"><br>
+        <button class="add-to-cart-btn" onclick="addToCart('E-Roller WLAN', 249.99, 'quantity-product4')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product5" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product5')">&times;</span>
+            <h2>E-Roller US Edition</h2>
+            <img src="../images/E-roller weponized.jpg" alt="Product Image">
+            <p><b>Beschreibung:</b><br>
+                Dieser E-Roller wurde in Florida gebaut 
+                und hat schon Einsatz im Feld gesehen vor Allem 
+                in Afganistan, Iran, Vietnam und für eine 
+                kurze Zeit zur Sicherung des White Houses in Washington D.C.
+                Sie kommt ausgerüstet mit einer AR15, night vision, 
+                Sonar, off-road Reifen und ein kleiner Rückspiegel. 
+                Sie fragen sich bestimmt: Warum den 1ct extra? 
+                Wir sagen: <br><br>
+                <hr>
+            </p>
+            <p>Preis: 100,000.01 €</p>
+            <label class="anzahl-label" for="quantity-product2">Anzahl:</label>
+            <input type="number" id="quantity-product5" class="anzahl-ware" value="1" min="1"><br>
+        <button class="add-to-cart-btn" onclick="addToCart('E-Roller US Edition', 100000.01, 'quantity-product5')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product6" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product6')">&times;</span>
+            <h2>E-Roller X2</h2>
+            <img src="../images/E-roller verstellbar.webp" alt="Product Image">
+            <p><b>Beschreibung:</b><br>
+                Der E-Roller X2 kann in Wahrheit nicht fligen,
+                das war leider eine Falle. Doch er hat Hinterradantrieb 
+                und eignet sich daher gut für Wheelies. 
+                Sie könnten jetzt meinen, dass der preis nicht 
+                angemessen ist für dass es ein normaler E-Roller ist,
+                und das stimmt. Doch 420 € ist ein cooler Preis
+                und das kann man doch schon machen.  <br>
+                <dt><b>Disclaimer:</b></dt>
+                <dd>Lenker ist aus Kostengründen
+                    nicht inklusive und muss daher
+                    separrat gekauft werden.
+                </dd>
+                <br><br><hr>
+            </p>
+            <p>Preis: 419.99 €</p>
+            <label class="anzahl-label" for="quantity-product6">Anzahl:</label>
+            <input type="number" id="quantity-product6" class="anzahl-ware" value="1" min="1"><br>
+            <button class="add-to-cart-btn" onclick="addToCart('E-Roller X2', 419.99, 'quantity-product6')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product7" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product7')">&times;</span>
+            <h2>E-Roller V8</h2>
+            <img src="../images/E-roller daempfer.avif" alt="Product Image">
+            <p><b>Beschreibung:</b><br><br>
+                Hörst du das? Das laute Brummen? <br><br>
+                Oh ja, genau, das ist der E-Roller V8!! <br>
+                Mit einem V8 Motor, 5.0L, über 400 hp,
+                eine Geschwindigkeit von 0-100 in
+                4,3 Sekunden und eine durchschnittliche
+                Sterblichkeitsrate von nur 45 % kann  
+                man mit diesen Viech jeden BMW Fahrer
+                auf den Fersen sein! <br><br>
+                (Optional auch mit Spoiler) <br><br><hr>
+            </p>
+            <p>Preis: 549.79 €</p>
+            <label class="anzahl-label" for="quantity-product7">Anzahl:</label>
+            <input type="number" id="quantity-product7" class="anzahl-ware" value="1" min="1"><br>
+            <button class="add-to-cart-btn" onclick="addToCart('E-Roller V8', 549.79, 'quantity-product7')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product8" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product8')">&times;</span>
+            <h2>Kennzeichenhalter</h2>
+            <img src="../images/Kennzeichenhalter.jpg" alt="Product Image">
+            <p><b>Beschreibung:</b><br><br>
+                Dieser Kennzeichenhalter hat eine
+                einzige Aufgabe: <br><br>
+                <i>Dein Kennzeichen halten</i><br><br>
+                Und er macht es verdammt gut OK. 
+                Bei bedarf können wir ihnen auch
+                ein Kennzeichen dazu schicken und 
+                mit ein bisschen Glück ist er Gültig 
+                und ganz sicher nicht gestohlen <br><br>
+                <hr>
+            </p>
+            <p>Preis: 49.99 €</p>
+            <label class="anzahl-label" for="quantity-product8">Anzahl:</label>
+            <input type="number" id="quantity-product8" class="anzahl-ware" value="1" min="1"><br>
+            <button class="add-to-cart-btn" onclick="addToCart('Kennzeichenhalter', 49.99, 'quantity-product8')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product9" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product9')">&times;</span>
+            <h2>Reifen</h2>
+            <img src="../images/Reifen.jpg" alt="Product Image">
+            <p><b>Beschreibung:</b><br><br>
+                Reifen sind kein Geheimnis.
+                Sie drehen sich und bewegen sich 
+                nach vorne. Befestige sie auf einem 
+                E-Roller und du hast ein E-Roller mit Reifen. <br><br>
+                Unsere Reifen sind aus Gummi befüllt mit Luft. 
+                Sie haben jetzt die Möglichkeit Welche zu kaufen. <br><br>                
+                (Für den E-Roller US Edition gibt es spezielle 
+                schusssichere Reifen, bitte nachfragen bei bedarf) <br><br>
+                <hr>
+            </p>
+            <p>Preis: 14.99 €</p>
+            <label class="anzahl-label" for="quantity-product9">Anzahl:</label>
+            <input type="number" id="quantity-product9" class="anzahl-ware" value="1" min="1"><br>
+            <button class="add-to-cart-btn" onclick="addToCart('Reifen', 14.99, 'quantity-product9')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <div id="popup-product10" class="product-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup-product10')">&times;</span>
+            <h2>Ladekabel</h2>
+            <img src="../images/E-roller ladekabel.avif" alt="Product Image">
+            <p><b>Beschreibung:</b><br><br>
+                Ein Ladekabel ist ein Kabel der Lädt. <br><br>
+                Mehr gibts nicht zu sagen! <br> <br>
+                <hr>
+            </p>
+            <p>Price: 29.99 €</p>
+            <label class="anzahl-label" for="quantity-product10">Anzahl:</label>
+            <input type="number" id="quantity-product10" class="anzahl-ware" value="1" min="1"><br>
+            <button class="add-to-cart-btn" onclick="addToCart('Ladekabel', 29.99, 'quantity-product10')">In den Warenkorb</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Über Uns</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="impressum.html">Impressum</a>
+            <a href="wetter.html">Wetter</a>
+            <a href="../../MarkoMarkoProjekt/public/">B2B-Laden</a>
+        </div>
+        <p>© Rolling-Willy. Alle Rechte vorbehalten.</p>
+    </footer> 
+    <script src="../script/services.js"></script>
+    <script src="../script/Warenkorb.js"></script>
+    <script src="../script/index.js"></script>
+</body>
+</html>

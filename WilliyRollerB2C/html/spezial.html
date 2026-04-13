@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RW - Kontakt</title>
+    <link rel="stylesheet" href="../styles.css/algemein.css">
+    <link rel="stylesheet" href="../styles.css/spezial.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Suchleiste -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/LogoIcon.png" alt="Logo">
+            <a href="index.html" class="site-title">Rolling-Willy</a>
+        </div>
+        <div class="search-container">
+            <form id="search-form">
+                <input type="text" id="search" placeholder="Suchen..." name="query">
+                <button type="submit">Suchen</button>
+            </form>
+            <ul id="suggestions" style="display: none;"></ul>
+        </div>
+        <div class="links-container">
+            <a href="index.html">Home</a>
+            <a href="about.html">Über Uns</a>
+            <a href="services.html">Produkte</a>
+            <a href="warenkorb.html">Warenkorb</a>
+        </div>
+    </div>
+
+    <!-- Spezial Content -->
+    <div class="header">
+        <h1 style="color: white;">Spezial</h1>
+    </div>
+    <div class="main-content">
+        <!-- YouTube IFrame API -->
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <div id="player"></div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Über Uns</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="impressum.html">Impressum</a>
+            <a href="wetter.html">Wetter</a>
+            <a href="../../MarkoMarkoProjekt/public/">B2B-Laden</a>
+        </div>
+        <p>© Rolling-Willy. Alle Rechte vorbehalten.</p>
+    </footer>
+    
+    <script src="../script/spezial.js"></script>
+    <script src="../script/index.js"></script>
+</body>
+</html>

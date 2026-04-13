@@ -1,0 +1,37 @@
+
+
+.impressum-header {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.impressum-main {
+    flex: 1;
+    padding: 40px;
+}
+
+.impressum-container p{
+    font-family: 'monserrat';
+}
+
+.impressum-container h2{
+    font-family: 'monserrat';
+}
+
+.impressum-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.impressum-section {
+    margin-bottom: 60px;
+}
+
+.impressum-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

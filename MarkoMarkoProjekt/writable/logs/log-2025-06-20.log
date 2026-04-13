@@ -1,0 +1,436 @@
+ERROR - 2025-06-20 06:19:19 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=17696 in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:19:19 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=17696 in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:19:19 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=17696 in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:19:19 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+ERROR - 2025-06-20 06:19:19 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+ERROR - 2025-06-20 06:19:19 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+ERROR - 2025-06-20 06:19:19 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=17696 in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:19:19 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+ERROR - 2025-06-20 06:19:28 --> Error connecting to the database: mysqli_sql_exception: Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:19:28 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte
+ERROR - 2025-06-20 06:52:24 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=18512 in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:52:24 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=18512 in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:52:24 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+ERROR - 2025-06-20 06:52:24 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+ERROR - 2025-06-20 06:52:24 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=18512 in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:52:24 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+ERROR - 2025-06-20 06:53:30 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=22460 in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'inventory_syste...', 3306, '', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Products.php(18): CodeIgniter\Database\BaseConnection->query('SELECT `Produkt...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 {main}
+ERROR - 2025-06-20 06:53:30 --> Database error in Products::index(): Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+CRITICAL - 2025-06-20 14:00:26 --> Error: Class "App\Models\ProductModel" not found
+[Method: POST, Route: api/create-order]
+in APPPATH\Controllers\Api.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 14:05:02 --> Error: Class "App\Models\ProductModel" not found
+[Method: POST, Route: api/create-order]
+in APPPATH\Controllers\Api.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 14:38:06 --> Error: Class "App\Models\ProductModel" not found
+[Method: POST, Route: api/create-order]
+in APPPATH\Controllers\Api.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 14:51:47 --> Error: Class "App\Models\ProductModel" not found
+[Method: POST, Route: api/create-order]
+in APPPATH\Controllers\Api.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-20 14:58:24 --> mysqli_sql_exception: Unknown column 'Transaktions-Nr' in 'field list' in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `vk...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vk...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vk...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Api.php(83): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vk...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Api->createOrder()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-20 14:58:25 --> Database transaction failed
+ERROR - 2025-06-20 15:05:58 --> mysqli_sql_exception: Unknown column 'Transaktions-Nr' in 'field list' in C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `vk...', 0)
+#1 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vk...')
+#2 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vk...')
+#3 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\app\Controllers\Api.php(82): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vk...', Array)
+#4 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(933): App\Controllers\Api->createOrder()
+#5 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\inventory\MarkoMarkoProjekt\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+ERROR - 2025-06-20 15:05:58 --> Database transaction failed
